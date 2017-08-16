@@ -1,0 +1,14 @@
+<div class="dashboard">
+    <h3>Top Movies</h3>
+    <div class="list">
+        <div class="list-item" *ngFor="let movie of topMovies" (click)="goToDetails(movie.id)">
+            <span class="movie">{{movie.name}}</span>
+        </div>
+    </div>
+    <h3>Latest Movies</h3>
+    <div class="list">
+        <div class="list-item" *ngFor="let movie of latestMovies" (click)="goToDetails(movie.id)">
+            <span class="movie">{{movie.name}}</span>
+        </div>
+    </div>    
+</div>

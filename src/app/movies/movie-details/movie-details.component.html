@@ -1,0 +1,13 @@
+<div *ngIf="movie" class="movie">
+  <div class="poster">
+    <figure>
+      <img src="../assets/images/{{movie.image}}" />
+    </figure>
+  </div>
+  <div class="desc">
+    <div class="container">
+      <h2>{{movie.name}}</h2>
+      <p>{{movie.summary}}</p>
+    </div>
+  </div>
+</div>

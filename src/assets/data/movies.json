@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Wonder Woman",
+        "image": "wonder_woman.jpeg",
+        "summary": "Before she was Wonder Woman (Gal Gadot), she was Diana, princess of the Amazons, trained to be an unconquerable warrior. Raised on a sheltered island paradise, Diana meets an American pilot (Chris Pine) who tells her about the massive conflict that's raging in the outside world. Convinced that she can stop the threat, Diana leaves her home for the first time. Fighting alongside men in a war to end all wars, she finally discovers her full powers and true destiny."
+    },
+    {
+        "id": 2,
+        "name": "Dunkirk",
+        "image": "dunkirk.jpeg",
+        "summary": "In May 1940, Germany advanced into France, trapping Allied troops on the beaches of Dunkirk. Under air and ground cover from British and French forces, troops were slowly and methodically evacuated from the beach using every serviceable naval and civilian vessel that could be found. At the end of this heroic mission, 330,000 French, British, Belgian and Dutch soldiers were safely evacuated."
+    },
+    {
+        "id": 3,
+        "name": "Spirder Man Home Coming",
+        "image": "spiderman_homecoming.jpg",
+        "summary": "Thrilled by his experience with the Avengers, young Peter Parker returns home to live with his Aunt May. Under the watchful eye of mentor Tony Stark, Parker starts to embrace his newfound identity as Spider-Man. He also tries to return to his normal daily routine -- distracted by thoughts of proving himself to be more than just a friendly neighborhood superhero. Peter must soon put his powers to the test when the evil Vulture emerges to threaten everything that he holds dear."
+    },
+    {
+        "id": 4,
+        "name": "The Emoji Movie",
+        "image": "emoji_movie.jpeg",
+        "summary": "Hidden inside a smartphone, the bustling city of Textopolis is home to all emojis. Each emoji has only one facial expression, except for Gene, an exuberant emoji with multiple expressions. Determined to become normal like the other emojis, Gene enlists the help of his best friend Hi-5 and a notorious code breaker called Jailbreak. During their travels through the other apps, the three emojis discover a great danger that could threaten their phone's very existence."
+    },
+    {
+        "id": 5,
+        "name": "Atomic Blonde",
+        "image": "atomic_blonde.jpeg",
+        "summary": "Sensual and savage, Lorraine Broughton is the most elite spy in MI6, an agent who's willing to use all of her lethal skills to stay alive during an impossible mission. With the Berlin Wall about to fall, she travels into the heart of the city to retrieve a priceless dossier and take down a ruthless espionage ring. Once there, she teams up with an embedded station chief to navigate her way through the deadliest game of spies."
+    },
+    {
+        "id": 6,
+        "name": "Pete's dragon",
+        "image": "petes_dragon.jpeg",
+        "summary": "Pete's Dragon is a 2016 American fantasy comedy-drama adventure film directed by David Lowery, written by Lowery and Toby Halbrooks, and produced by James Whitaker. The film is an adaptation of the 1977 musical film of the same name written by Malcolm Marmorstein. The film stars Bryce Dallas Howard, Oakes Fegley, Wes Bentley, Karl Urban, Oona Laurence, and Robert Redford."
+    },
+    {
+        "id": 7,
+        "name": "La la land",
+        "image": "la_la_land.jpeg",
+        "summary": "Sebastian (Ryan Gosling) and Mia (Emma Stone) are drawn together by their common desire to do what they love. But as success mounts they are faced with decisions that begin to fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip them apart."
+    },
+    {
+        "id": 8,
+        "name": "Interstellar",
+        "image": "interstellar.jpeg",
+        "summary": "Interstellar is a 2014 epic science fiction film directed, co-written and co-produced by Christopher Nolan. The movie stars Matthew McConaughey, Anne Hathaway, Jessica Chastain, Bill Irwin, Casey Affleck, Ellen Burstyn, John Lithgow and Michael Caine. Set in a dystopian future where humanity is struggling to survive, it follows a group of astronauts who travel through a wormhole in search of a new home for humanity."
+    },
+    {
+        "id": 9,
+        "name": "Braveheart",
+        "image": "brave_heart.jpg",
+        "summary": "Braveheart is a 1995 American epic war film directed by and starring Mel Gibson. Gibson portrays William Wallace, a 13th-century Scottish warrior who led the Scots in the First War of Scottish Independence against King Edward I of England. The story is inspired by Blind Harry's epic poem The Actes and Deidis of the Illustre and Vallyeant Campioun Schir William Wallace and was adapted for the screen by Randall Wallace."
+    },
+    {
+        "id": 10,
+        "name": "Life is beautiful",
+        "image": "life_is_beautiful.jpeg",
+        "summary": "Life Is Beautiful (Italian: La vita è bella [la ˈviːta ɛ bˈbɛlla]) is a 1997 Italian comedy-drama film directed by and starring Roberto Benigni, who co-wrote the film with Vincenzo Cerami. Benigni plays Guido Orefice, a Jewish Italian book shop owner, who employs his fertile imagination to shield his son from the horrors of internment in a Nazi concentration camp. The film was partially inspired by the book In the End, I Beat Hitler by Rubino Romeo Salmonì and by Benigni's father, who spent two years in a German labour camp during World War II."
+    }
+]
