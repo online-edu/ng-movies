@@ -1,4 +1,40 @@
+$primary-color:#000;
+$text-color:#FFF;
+$title-color:#48a3c6;
+
 body {     
     font-family: 'Roboto';
-    background: lighten(#000,8);    
+    background: lighten($primary-color,8);    
+    color: $text-color;
+    a{
+        color: $text-color;
+        text-decoration: none;
+    }
+}
+.container{        
+    overflow:hidden;
+    .left-col{            
+        float:left; 
+        margin:10px 20px;
+        width:50%;        
+    }
+    .right-col{             
+        overflow:hidden;
+        margin:10px;                        
+    }
+    @media screen and (max-width: 400px) {
+        .left-col { 
+            float: none;
+            margin-right:0;
+            margin-left: 0;
+            width:auto;                
+        }
+    }
+}
+.movie-name{
+    color:$title-color;
+}
+.movie-desc{
+    color: darken($text-color, 30);
+    line-height: 24px;    
 }

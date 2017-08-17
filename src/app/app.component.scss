@@ -1,8 +1,5 @@
-$brand-color:lighten(#000,10%);
-header{
-    // background-image: -webkit-linear-gradient(top,#222 0,rgba(34,34,34,.85) 100%);
-    color: #FFF;
-    background-color: lighten($brand-color, 15%);    
+header{        
+    background-color: lighten(#000, 25%);    
     left: 0;
     right: 0;    
     top: 0;
@@ -20,11 +17,9 @@ header{
             height: 60px;
             line-height: 60px;          
             a {
-                display: block;
-                color: white;
+                display: block;                
                 text-align: center;
-                margin: 0 15px;
-                text-decoration: none;
+                margin: 0 15px;                
             }                        
             &:hover {
                 background-color: #999999;

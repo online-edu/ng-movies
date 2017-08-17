@@ -1,23 +1,29 @@
 .movie{
-    padding: 10px;
-    display: table;
-    .poster{
-        display: table-cell;        
-        figure img{
+    .left-col{
+        width: 30%;
+        .poster figure img{                          
             width: 350px;
             height: 500px;
-            -webkit-box-reflect: below 0px -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.6) 0%, transparent 25%, transparent 100%);
-        }
-    }   
-    .desc{        
-        display: table-cell;
-        vertical-align: top;        
-        color: #FFF;        
-        .container{
+            -webkit-box-reflect: below 0px -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.6) 0%, transparent 25%, transparent 100%);            
+            @media screen and (max-width: 400px) {
+                figure{                
+                    margin: 0;                           
+                }
+            }
+        }   
+    }
+    .info{                                
+        .info-container{
             min-height: 585px;
             border: thin solid lighten(#000, 50);        
-            padding: 15px;
+            padding: 0 20px;
             margin: 15px auto;
-        }
+            .movie-name{                
+                font-size: 24px;
+            }
+            .movie-desc{
+                font-size: 17px;                                                                             
+            }
+        }                
     }
-}
+}            
