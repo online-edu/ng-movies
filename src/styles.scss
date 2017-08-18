@@ -31,10 +31,10 @@ body {
         }
     }
 }
-.movie-name{
+.movie-name, .label{
     color:$title-color;
 }
-.movie-desc{
+.movie-desc, .crew{
     color: darken($text-color, 30);
     line-height: 24px;    
 }

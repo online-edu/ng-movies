@@ -1,7 +1,7 @@
 <div class="movies">
   <div class="block" *ngFor="let movie of movies" (click)="goToDetails(movie.id)">
     <figure>
-      <img src="../assets/images/{{movie.image}}" />
+      <img src="{{movie.image}}" />
     </figure>
   </div>
 </div>
