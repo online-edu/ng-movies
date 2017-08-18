@@ -1,11 +1,10 @@
 import { Injectable } from '@angular/core';
-import { Headers, Http, Response, RequestOptions } from '@angular/http';
+import { Http, Response } from '@angular/http';
 import { Observable } from "rxjs/Rx";
 
 import { Movie } from "./movie";
 
 import { environment as env } from "../../environments/environment";
-var OPTIONS: any = { 'Content-Type': 'application/json' };
 
 @Injectable()
 export class MovieService {
