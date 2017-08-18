@@ -33,9 +33,4 @@ export class DashboardComponent implements OnInit {
       }, error => this.error = error)
   }
 
-  goToDetails(id: number) {
-    this.router.navigate(['/details', id]);
-  }
-
-
 }

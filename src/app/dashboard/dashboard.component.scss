@@ -1,10 +1,20 @@
-.dashboard{
-    padding: 5px;
+.dashboard{     
     .list{        
         .list-item{
             padding: 10px;
-            background-color: #dedede;
+            border-bottom: thin solid #dedede;
             width: auto;
+            .movie-name{                                
+                font-size: 22px;
+            }
+            .movie-desc{
+                font-size: 17px;                
+                overflow: hidden;
+                max-height: 72px;                                
+            }
+            .movie-img{
+                width: 100px;
+            }
         }
     }
 }

@@ -2,61 +2,151 @@
     {
         "id": 1,
         "name": "Wonder Woman",
-        "image": "wonder_woman.jpeg",
-        "summary": "Before she was Wonder Woman (Gal Gadot), she was Diana, princess of the Amazons, trained to be an unconquerable warrior. Raised on a sheltered island paradise, Diana meets an American pilot (Chris Pine) who tells her about the massive conflict that's raging in the outside world. Convinced that she can stop the threat, Diana leaves her home for the first time. Fighting alongside men in a war to end all wars, she finally discovers her full powers and true destiny."
+        "image": "https://movie-app-29a50.firebaseapp.com/assets/images/wonder_woman.jpeg",
+        "summary": "Wonder Woman is a 2017 American superhero film based on the DC Comics character of the same name, distributed by Warner Bros. Pictures. It is the fourth installment in the DC Extended Universe. The film is directed by Patty Jenkins, with a screenplay by Allan Heinberg, from a story by Heinberg, Zack Snyder and Jason Fuchs, and stars Gal Gadot, Chris Pine, Robin Wright, Danny Huston, David Thewlis, Connie Nielsen and Elena Anaya. Wonder Woman is the second live action theatrical film featuring the titular character, following her debut in 2016's Batman v Superman: Dawn of Justice.[5] Jenkins' role as director makes her the first female director of a studio superhero comic book live-action theatrical release film.[6] The film tells the story of Princess Diana, who grows up on the Amazon island of Themyscira. After American pilot Steve Trevor crashes offshore of the island and is rescued by her, he tells the Amazons about the ongoing World War. Diana then leaves her home in order to end the conflict, becoming Wonder Woman in the process.",
+        "director": "Patty Jenkins",
+        "producer": "Charles Roven, Deborah Snyder, Zack Snyder, Richard Suckle",
+        "music": "Rupert Gregson-Williams",
+        "starring": "Gal Gadot, Chris Pine, Robin Wright, Danny Huston, David Thewlis, Connie Nielsen, Elena Anaya"
     },
     {
         "id": 2,
         "name": "Dunkirk",
-        "image": "dunkirk.jpeg",
-        "summary": "In May 1940, Germany advanced into France, trapping Allied troops on the beaches of Dunkirk. Under air and ground cover from British and French forces, troops were slowly and methodically evacuated from the beach using every serviceable naval and civilian vessel that could be found. At the end of this heroic mission, 330,000 French, British, Belgian and Dutch soldiers were safely evacuated."
+        "image": "https://movie-app-29a50.firebaseapp.com/assets/images/dunkirk.jpeg",
+        "summary": "Dunkirk is a 2017 war film written, co-produced, and directed by Christopher Nolan. It features an ensemble cast starring Fionn Whitehead, Tom Glynn-Carney, Jack Lowden, Harry Styles, Aneurin Barnard, James D'Arcy, Barry Keoghan, Kenneth Branagh, Cillian Murphy, Mark Rylance, and Tom Hardy, and portrays the Dunkirk evacuation of the Second World War. Distributed by Warner Bros., the film is a co-production between the United Kingdom, the United States, France, and the Netherlands. Nolan wrote the script, told from three perspectives—land, sea, and air—with little dialogue and intended to create suspense through visuals and music. Filming began in May 2016 in Dunkirk, France, and ended that September in Los Angeles, where it also began post-production. ",
+        "director": "Christopher Nolan",
+        "producer": "Emma Thomas, Christopher Nolan",
+        "music": "Hans Zimmer",
+        "starring": "Fionn Whitehead, Tom Glynn-Carney, Jack Lowden, Harry Styles, Aneurin Barnard, James D'Arcy, Barry Keoghan, Kenneth Branagh, Cillian Murphy, Mark Rylance, Tom Hardy"
     },
     {
         "id": 3,
         "name": "Spirder Man Home Coming",
-        "image": "spiderman_homecoming.jpg",
-        "summary": "Thrilled by his experience with the Avengers, young Peter Parker returns home to live with his Aunt May. Under the watchful eye of mentor Tony Stark, Parker starts to embrace his newfound identity as Spider-Man. He also tries to return to his normal daily routine -- distracted by thoughts of proving himself to be more than just a friendly neighborhood superhero. Peter must soon put his powers to the test when the evil Vulture emerges to threaten everything that he holds dear."
+        "image": "https://movie-app-29a50.firebaseapp.com/assets/images/spiderman_homecoming.jpg",
+        "summary": "Spider-Man: Homecoming is a 2017 American superhero film based on the Marvel Comics character Spider-Man, co-produced by Columbia Pictures and Marvel Studios, and distributed by Sony Pictures Releasing. It is the second Spider-Man film reboot and the sixteenth film of the Marvel Cinematic Universe (MCU). The film is directed by Jon Watts, with a screenplay by the writing teams of Jonathan Goldstein and John Francis Daley, Watts and Christopher Ford, and Chris McKenna and Erik Sommers. Tom Holland stars as Spider-Man, alongside Michael Keaton, Jon Favreau, Zendaya, Donald Glover, Tyne Daly, Marisa Tomei and Robert Downey Jr. In Spider-Man: Homecoming, Peter Parker tries to balance high school life with being Spider-Man, while facing the Vulture.",
+        "director": "Jon Watts",
+        "producer": "Kevin Feige, Amy Pascal",
+        "music": "Michael Giacchino",
+        "starring": "Tom Holland, Michael Keaton, Jon Favreau, Zendaya, Donald Glover, Tyne Daly, Marisa Tomei, Robert Downey Jr."
     },
     {
         "id": 4,
         "name": "The Emoji Movie",
-        "image": "emoji_movie.jpeg",
-        "summary": "Hidden inside a smartphone, the bustling city of Textopolis is home to all emojis. Each emoji has only one facial expression, except for Gene, an exuberant emoji with multiple expressions. Determined to become normal like the other emojis, Gene enlists the help of his best friend Hi-5 and a notorious code breaker called Jailbreak. During their travels through the other apps, the three emojis discover a great danger that could threaten their phone's very existence."
+        "image": "https://movie-app-29a50.firebaseapp.com/assets/images/emoji_movie.jpeg",
+        "summary": "he Emoji Movie is a 2017 American 3D computer-animated comedy film directed by Tony Leondis and written by Leondis, Eric Siegel and Mike White, based on the emoji symbols.[4] It stars the voices of T. J. Miller, James Corden, Anna Faris, Maya Rudolph, Steven Wright, Rob Riggle, Jennifer Coolidge, Christina Aguilera, Sofía Vergara, Sean Hayes and Patrick Stewart. The film centers on Gene, a multi-expressional emoji who lives in a teenager's phone, and who sets out on a journey to become a normal meh emoji like his parents. Produced by Sony Pictures Animation, and distributed by Columbia Pictures, The Emoji Movie premiered on July 23, 2017 at the Regency Village Theatre, was theatrically released in the United States on July 28, 2017 and has grossed $99 million worldwide.[7] It received overwhelmingly negative reviews from critics, many of whom compared it unfavorably to The Lego Movie, Inside Out and Wreck-It Ralph.",
+        "director": "Tony Leondis",
+        "producer": "Michelle Raimo Kouyate",
+        "music": "Patrick Doyle",
+        "starring": "T. J. Miller, James Corden, Anna Faris, Maya Rudolph, Steven Wright, Jennifer Coolidge, Christina Aguilera, Sofía Vergara, Sean Hayes, Patrick Stewart"
     },
     {
         "id": 5,
         "name": "Atomic Blonde",
-        "image": "atomic_blonde.jpeg",
-        "summary": "Sensual and savage, Lorraine Broughton is the most elite spy in MI6, an agent who's willing to use all of her lethal skills to stay alive during an impossible mission. With the Berlin Wall about to fall, she travels into the heart of the city to retrieve a priceless dossier and take down a ruthless espionage ring. Once there, she teams up with an embedded station chief to navigate her way through the deadliest game of spies."
+        "image": "https://movie-app-29a50.firebaseapp.com/assets/images/atomic_blonde.jpeg",
+        "summary": "Atomic Blonde is a 2017 American action spy thriller film directed by David Leitch, in his first solo directorial credit, and written by Kurt Johnstad. It is based on Antony Johnston and Sam Hart's 2012 graphic novel The Coldest City, published by Oni Press, which revolves around a spy who has to find a list of double agents who are being smuggled into the West, on the eve of the collapse of the Berlin Wall in 1989. The film stars Charlize Theron and James McAvoy, with John Goodman, Til Schweiger, Eddie Marsan, Sofia Boutella and Toby Jones in supporting roles. Atomic Blonde had its world premiere at South by Southwest on March 12, 2017, and was theatrically released in the United States on July 28, 2017, by Focus Features. It has grossed $63 million worldwide, and received generally positive reviews from critics, who praised its action sequences, Theron's performance and the soundtrack, although some criticized the writing and pacing; many have compared the film to John Wick.",
+        "director": "David Leitch",
+        "producer": "Charlize Theron, Beth Kono, A. J. Dix, Kelly McCormick, Eric Gitter, Peter Schwerin",
+        "music": "Tyler Bates",
+        "starring": "Charlize Theron, James McAvoy"
     },
     {
         "id": 6,
         "name": "Pete's dragon",
-        "image": "petes_dragon.jpeg",
-        "summary": "Pete's Dragon is a 2016 American fantasy comedy-drama adventure film directed by David Lowery, written by Lowery and Toby Halbrooks, and produced by James Whitaker. The film is an adaptation of the 1977 musical film of the same name written by Malcolm Marmorstein. The film stars Bryce Dallas Howard, Oakes Fegley, Wes Bentley, Karl Urban, Oona Laurence, and Robert Redford."
+        "image": "https://movie-app-29a50.firebaseapp.com/assets/images/petes_dragon.jpeg",
+        "summary": "Pete's Dragon is a 2016 American fantasy comedy-drama adventure film directed by David Lowery, written by Lowery and Toby Halbrooks, and produced by James Whitaker. The film is an adaptation of the 1977 musical film of the same name written by Malcolm Marmorstein. The film stars Bryce Dallas Howard, Oakes Fegley, Wes Bentley, Karl Urban, Oona Laurence, and Robert Redford.[3] The film tells the story of an orphaned feral boy who befriends a dragon in the Pacific Northwest, and the ensuing repercussions of their discovery by the town's local residents. Pete's Dragon premiered at the El Capitan Theatre on August 8, 2016 and was theatrically distributed by Walt Disney Pictures in the United States in 2D, Disney Digital 3-D, and RealD 3D formats on August 12, 2016.[4] The film received positive reviews from critics and has grossed $143 million worldwide against a $65 million production budget.",
+        "director": "David Lowery",
+        "producer": "James Whitaker",
+        "music": "Daniel Hart",
+        "starring": "Bryce Dallas Howard, Oakes Fegley, Wes Bentley, Karl Urban, Oona Laurence, Robert Redford"
     },
     {
         "id": 7,
         "name": "La la land",
-        "image": "la_la_land.jpeg",
-        "summary": "Sebastian (Ryan Gosling) and Mia (Emma Stone) are drawn together by their common desire to do what they love. But as success mounts they are faced with decisions that begin to fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip them apart."
+        "image": "https://movie-app-29a50.firebaseapp.com/assets/images/la_la_land.jpeg",
+        "summary": "Sebastian (Ryan Gosling) and Mia (Emma Stone) are drawn together by their common desire to do what they love. But as success mounts they are faced with decisions that begin to fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip them apart.",
+        "director": "Damien Chazelle",
+        "producer": "Fred Berger, Jordan Horowitz, Gary Gilbert, Marc Platt",
+        "music": "Justin Hurwitz",
+        "starring": "Ryan Gosling, Emma Stone, John Legend, Rosemarie DeWitt"
     },
     {
         "id": 8,
         "name": "Interstellar",
-        "image": "interstellar.jpeg",
-        "summary": "Interstellar is a 2014 epic science fiction film directed, co-written and co-produced by Christopher Nolan. The movie stars Matthew McConaughey, Anne Hathaway, Jessica Chastain, Bill Irwin, Casey Affleck, Ellen Burstyn, John Lithgow and Michael Caine. Set in a dystopian future where humanity is struggling to survive, it follows a group of astronauts who travel through a wormhole in search of a new home for humanity."
+        "image": "https://movie-app-29a50.firebaseapp.com/assets/images/interstellar.jpeg",
+        "summary": "Interstellar is a 2014 epic science fiction film directed, co-written and co-produced by Christopher Nolan. The movie stars Matthew McConaughey, Anne Hathaway, Jessica Chastain, Bill Irwin, Casey Affleck, Ellen Burstyn, John Lithgow and Michael Caine. Set in a dystopian future where humanity is struggling to survive, it follows a group of astronauts who travel through a wormhole in search of a new home for humanity.",
+        "director": "Christopher Nolan",
+        "producer": "Emma Thomas, Christopher Nolan, Lynda Obst",
+        "music": "Hans Zimmer",
+        "starring": "Matthew McConaughey, Anne Hathaway, Jessica Chastain, Bill Irwin, Ellen Burstyn, Michael Caine"
     },
     {
         "id": 9,
         "name": "Braveheart",
-        "image": "brave_heart.jpg",
-        "summary": "Braveheart is a 1995 American epic war film directed by and starring Mel Gibson. Gibson portrays William Wallace, a 13th-century Scottish warrior who led the Scots in the First War of Scottish Independence against King Edward I of England. The story is inspired by Blind Harry's epic poem The Actes and Deidis of the Illustre and Vallyeant Campioun Schir William Wallace and was adapted for the screen by Randall Wallace."
+        "image": "https://movie-app-29a50.firebaseapp.com/assets/images/brave_heart.jpg",
+        "summary": "Braveheart is a 1995 American epic war film directed by and starring Mel Gibson. Gibson portrays William Wallace, a late 13th-century Scottish warrior who led the Scots in the First War of Scottish Independence against King Edward I of England. The story is inspired by Blind Harry's epic poem The Actes and Deidis of the Illustre and Vallyeant Campioun Schir William Wallace and was adapted for the screen by Randall Wallace. The film was nominated for ten Academy Awards at the 68th Academy Awards and won five: Best Picture, Best Director, Best Cinematography, Best Makeup, and Best Sound Editing.",
+        "director": "Mel Gibson",
+        "producer": "Mel Gibson, Alan Ladd, Jr., Bruce Davey",
+        "music": "James Horner",
+        "starring": "Mel Gibson, Sophie Marceau, Patrick McGoohan, Catherine McCormack"
     },
     {
         "id": 10,
         "name": "Life is beautiful",
-        "image": "life_is_beautiful.jpeg",
-        "summary": "Life Is Beautiful (Italian: La vita è bella [la ˈviːta ɛ bˈbɛlla]) is a 1997 Italian comedy-drama film directed by and starring Roberto Benigni, who co-wrote the film with Vincenzo Cerami. Benigni plays Guido Orefice, a Jewish Italian book shop owner, who employs his fertile imagination to shield his son from the horrors of internment in a Nazi concentration camp. The film was partially inspired by the book In the End, I Beat Hitler by Rubino Romeo Salmonì and by Benigni's father, who spent two years in a German labour camp during World War II."
+        "image": "https://movie-app-29a50.firebaseapp.com/assets/images/life_is_beautiful.jpeg",
+        "summary": "Life Is Beautiful (Italian: La vita è bella [la ˈviːta ɛ bˈbɛlla]) is a 1997 Italian comedy-drama film directed by and starring Roberto Benigni, who co-wrote the film with Vincenzo Cerami. Benigni plays Guido Orefice, a Jewish Italian book shop owner, who employs his fertile imagination to shield his son from the horrors of internment in a Nazi concentration camp. The film was partially inspired by the book In the End, I Beat Hitler by Rubino Romeo Salmonì and by Benigni's father, who spent two years in a German labour camp during World War II. The film was a critical and financial success, despite criticisms of using the subject matter for comedic purposes. It won the Grand Prix at the 1998 Cannes Film Festival, nine David di Donatello Awards, including Best Film, in Italy, and three Academy Awards, including Best Actor for Benigni.",
+        "director": "Roberto Benigni",
+        "producer": "Gianluigi Braschi, Elda Ferri",
+        "music": "Nicola Piovani",
+        "starring": "Roberto Benigni, Nicoletta Braschi"
+    },
+    {
+        "id": 11,
+        "name": "The Wedding Planner",
+        "image": "https://movie-app-29a50.firebaseapp.com/assets/images/wedding_planner.jpg",
+        "summary": "The Wedding Planner is a 2001 romantic comedy film directed by Adam Shankman, written by Michael Ellis and Pamela Falk, and starring Jennifer Lopez and Matthew McConaughey.",
+        "director": "Adam Shankman",
+        "producer": "Peter Abrams, Deborah Del Prete, Jennifer Gibgot, Robert L. Levy, Gigi Pritzker",
+        "music": "Mervyn Warren",
+        "starring": "Jennifer Lopez, Matthew McConaughey, Bridgette Wilson-Sampras, Justin Chambers, Judy Greer, Alex Rocco, Joanna Gleason, Charles Kimbrough, Fred Willard, Lou Myers, Frances Bay"
+    },
+    {
+        "id": 12,
+        "name": "Liar Liar",
+        "image": "https://movie-app-29a50.firebaseapp.com/assets/images/liar_liar.JPG",
+        "summary": "Liar Liar is a 1997 American comedy film directed by Tom Shadyac, written by Paul Guay and Stephen Mazur and starring Jim Carrey, who was nominated for a Golden Globe Award for Best Actor in Comedy. The film is the second of three collaborations between Carrey and Shadyac, the first being Ace Ventura: Pet Detective and the third being Bruce Almighty. It is also the second of three collaborations between Guay and Mazur, the others being The Little Rascals and Heartbreakers. It has been unofficially remade in Bollywood as Kyo Kii... Main Jhuth Nahin Bolta.",
+        "director": "Tom Shadyac",
+        "producer": "Brian Grazer",
+        "music": "John Debney",
+        "starring": "Jim Carrey, Maura Tierney, Jennifer Tilly, Swoosie Kurtz, Amanda Donohoe, Anne Haney, Justin Cooper"
+    },
+    {
+        "id": 13,
+        "name": "The Holiday ",
+        "image": "https://movie-app-29a50.firebaseapp.com/assets/images/holiday.jpg",
+        "summary": "The Holiday is a 2006 American romantic comedy film written, produced and directed by Nancy Meyers. Co-produced by Bruce A. Block, it was filmed in both California and England, and stars Cameron Diaz and Kate Winslet as Amanda and Iris, two lovelorn women from opposite sides of the Atlantic Ocean, who temporarily exchange homes to escape heartbreak during the holiday season. Jude Law and Jack Black were cast as the film's leading men Graham and Miles, with Eli Wallach, Shannyn Sossamon, Edward Burns and Rufus Sewell playing key supporting roles. Distributed by Columbia Pictures and Universal Pictures, The Holiday was first released on December 6, 2006, in Spain and on December 8, 2006, in North America and the United Kingdom. It grossed over $205 million worldwide. Critics praised the film's visual aesthetic design and the cast's performances, though criticized its plot as predictable.",
+        "director": "Nancy Meyers",
+        "producer": "Nancy Meyers, Bruce A. Block",
+        "music": "Hans Zimmer",
+        "starring": "Cameron Diaz, Kate Winslet, Jude Law, Jack Black, Eli Wallach, Edward Burns, Rufus Sewell"
+    },
+    {
+        "id": 14,
+        "name": "Doctor Strange",
+        "image": "https://movie-app-29a50.firebaseapp.com/assets/images/dr_stange.jpg",
+        "summary": "Doctor Strange is a 2016 American superhero film based on the Marvel Comics character of the same name, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures. It is the fourteenth film of the Marvel Cinematic Universe (MCU). The film was directed by Scott Derrickson, who wrote the film with Jon Spaihts and C. Robert Cargill. It stars Benedict Cumberbatch as Stephen Strange, along with Chiwetel Ejiofor, Rachel McAdams, Benedict Wong, Michael Stuhlbarg, Benjamin Bratt, Scott Adkins, Mads Mikkelsen, and Tilda Swinton. In Doctor Strange, surgeon Strange learns the mystic arts after a career-ending car accident.",
+        "director": "Scott Derrickson",
+        "producer": "Kevin Feige",
+        "music": "Michael Giacchino",
+        "starring": "Benedict Cumberbatch, Chiwetel Ejiofor, Rachel McAdams, Benedict Wong, Michael Stuhlbarg, Benjamin Bratt, Scott Adkins, Mads Mikkelsen, Tilda Swinton"
+    },
+    {
+        "id": 15,
+        "name": "Star Wars",
+        "image": "https://movie-app-29a50.firebaseapp.com/assets/images/star_wars.jpg",
+        "summary": "Star Wars (later retitled Star Wars: Episode IV – A New Hope) is a 1977 American epic space opera film written and directed by George Lucas. It is the first film in the original Star Wars trilogy, the first Star Wars movie in general, and the beginning of the Star Wars franchise. Starring Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing, Alec Guinness, David Prowse, James Earl Jones, Anthony Daniels, Kenny Baker, and Peter Mayhew, The film's plot focuses on the Rebel Alliance, led by Princess Leia (Fisher), and its attempt to destroy the Galactic Empire's space station, the Death Star. This conflict disrupts the isolated life of farmhand Luke Skywalker (Hamill), who inadvertently acquires a pair of droids that possess stolen architectural plans for the Death Star. When the Empire begins a destructive search for the missing droids, Skywalker accompanies Jedi Master Obi-Wan Kenobi (Guinness) on a mission to return the plans to the Rebel Alliance and rescue Leia from her imprisonment by the Empire.",
+        "director": "George Lucas",
+        "producer": "Gary Kurtz",
+        "music": "John Williams",
+        "starring": "Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing, Alec Guinness"
     }
 ]
