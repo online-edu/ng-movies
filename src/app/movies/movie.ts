@@ -3,5 +3,8 @@ export class Movie {
     name: string;
     image: string;
     summary: string;
-    wiki: string;
+    director: string;
+    producer:string;
+    music:string;
+    starring:string;
 }
