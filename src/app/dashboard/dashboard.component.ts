@@ -20,11 +20,11 @@ export class DashboardComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.getTopMovies()
+    this.getMovies()
   }
 
 
-  getTopMovies() {
+  getMovies() {
     this.movieService
       .getMovies()
       .subscribe(movies => {
