@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/online-edu/movie-app.svg?branch=master)](https://travis-ci.org/online-edu/movie-app)
+
 # Movie App
 
 This project is movie library where list of movies are displayed. It is simply showcase of angular features such as modules, components, services, routing, data-binding, etc.
