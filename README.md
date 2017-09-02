@@ -17,4 +17,4 @@ npm install -g @angular/cli
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-![screen shot 2017-08-18 at 8 55 53 pm](https://user-images.githubusercontent.com/9882972/29468753-2626b5b4-8463-11e7-85b5-2dbb37c7d9ea.png)
+![screen shot 2017-09-02 at 9 39 08 pm](https://user-images.githubusercontent.com/9882972/29997031-3a935ca8-9027-11e7-9671-ab37a064b4b0.png)
