@@ -1,12 +1,16 @@
 import { Component } from '@angular/core';
 
+import { Router } from '@angular/router';
+
 @Component({
   selector: 'movie-root',
   template: `<header>   
               <ul>
                   <li><a class="brand" routerLink="/">Movies</a></li>
-                  <li><a routerLink="/dashboard">Dashboard</a></li>
+                  <li><a routerLink="/">Home</a></li>
                   <li><a routerLink="/movies">Movies</a></li>
+                  <li><a routerLink="/login">Login</a></li>
+                  <li><a routerLink="/movie/add">Add</a></li>
               </ul>
              </header>
              <div class="container">
@@ -14,4 +18,8 @@ import { Component } from '@angular/core';
              </div>`,
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent { }
+export class AppComponent {
+  constructor(router: Router) {
+    console.log('Routes: ', JSON.stringify(router.config, undefined, 2));
+  }
+}
