@@ -1,6 +1,7 @@
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 
+import { AuthGuard } from "./guards/auth-guard.service";
 import { DashboardComponent } from "./dashboard/dashboard.component";
 
 const routes: Routes = [
@@ -11,7 +12,8 @@ const routes: Routes = [
     },
     {
         path: 'admin',
-        loadChildren: 'app/admin/admin.module#AdminModule'
+        loadChildren: 'app/admin/admin.module#AdminModule',
+        canLoad: [AuthGuard]
     }
     // { path: '**', redirectTo: '/', pathMatch: 'full' },
 
