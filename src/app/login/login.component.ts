@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { Router, ActivatedRoute } from "@angular/router";
 
 @Component({
     selector: 'login',
@@ -11,9 +12,15 @@ export class LoginComponent {
         password: 'Lizzy'
     }
 
+    constructor(
+        private route: ActivatedRoute,
+        private router: Router) { }
+
     login() {
         if (this.user.id !== "" && this.user.password !== "") {
             localStorage.setItem("loggedIn", "true");
+            let url = btoa(this.route.snapshot.queryParams['returnUrl']) || '/admin';            
+            this.router.navigate([url])
         }
     }
 }

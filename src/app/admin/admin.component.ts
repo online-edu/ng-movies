@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { Router } from "@angular/router";
 
 @Component({
     selector: 'movie-admin',
@@ -6,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class AdminComponent {
-    constructor() { }
 
+    constructor(private router: Router) { }
+
+    logout() {
+        localStorage.removeItem('loggedIn');
+        this.router.navigate(['/']);
+    }
 }
