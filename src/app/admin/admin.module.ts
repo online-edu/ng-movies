@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { AdminRoutingModule } from "./admin-routing.module";
+import { AdminComponent } from "./admin.component";
 import { MovieComponent } from './movie/movie.component';
 
 @NgModule({
@@ -9,6 +10,6 @@ import { MovieComponent } from './movie/movie.component';
     AdminRoutingModule,
     CommonModule,
   ],
-  declarations: [MovieComponent]
+  declarations: [AdminComponent, MovieComponent]
 })
 export class AdminModule { }
