@@ -16,7 +16,7 @@ export class MovieDetailsComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private movieService: MovieService
-  ) { console.log("inner") }
+  ) {  }
 
   getMovie(id: number) {
     if (id !== undefined) {

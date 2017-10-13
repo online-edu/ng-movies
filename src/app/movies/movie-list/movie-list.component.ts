@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from "@angular/router";
+import { Router, ActivatedRoute } from "@angular/router";
 
-import { MovieService } from "../movie.service";
 import { Movie } from "../movie";
 
 @Component({
@@ -11,27 +10,18 @@ import { Movie } from "../movie";
 })
 export class MovieListComponent implements OnInit {
   movies: Movie[];
-  error: any;
 
   constructor(
     private router: Router,
-    private movieService: MovieService) { }
-
-  getMovies() {
-    this.movieService
-      .getMovies('movies.json')
-      .subscribe(
-      movies => this.movies = movies,
-      error => this.error = error
-      )
-  }
+    private route: ActivatedRoute) { }
 
   goToDetails(id: number) {
     this.router.navigate(['movies/details', id]);
   }
 
   ngOnInit() {
-    this.getMovies();
+    this.movies = this.route.snapshot.data['movies'];
+    
   }
 
 }
