@@ -8,7 +8,6 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { MovieService } from "./movies/movie.service";
 import { MovieModule } from "./movies/movie.module";
-import { AdminModule } from "./admin/admin.module";
 import { AuthGuard } from "./auth/auth-guard.service";
 
 @NgModule({
@@ -16,8 +15,7 @@ import { AuthGuard } from "./auth/auth-guard.service";
     AppComponent,
     DashboardComponent,
   ],
-  imports: [
-    AdminModule,
+  imports: [        
     AppRoutingModule,
     BrowserModule,
     FormsModule,
