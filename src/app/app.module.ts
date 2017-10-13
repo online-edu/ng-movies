@@ -8,21 +8,21 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { MovieService } from "./movies/movie.service";
 import { MovieModule } from "./movies/movie.module";
-import { AuthGuard } from "./auth/auth-guard.service";
+
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
   ],
-  imports: [        
+  imports: [
     AppRoutingModule,
     BrowserModule,
     FormsModule,
     HttpModule,
     MovieModule
   ],
-  providers: [MovieService, AuthGuard],
+  providers: [MovieService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

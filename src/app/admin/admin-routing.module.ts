@@ -3,19 +3,20 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AdminComponent } from "./admin.component";
 import { MovieComponent } from "./movie/movie.component";
-import { AuthGuard } from "../auth/auth-guard.service";
+import { AuthGuard } from "../guards/auth-guard.service";
+import { DeactivateGuard } from "../guards/deactivate-guard.service";
 
 const adminRoutes: Routes = [
   {
     path: '',
     component: AdminComponent,
-    canActivate: [AuthGuard],
+    canActivate: [AuthGuard],    
     children: [
       {
         path: '',
-        canActivate: [AuthGuard],
+        canActivateChild: [AuthGuard],
+        canDeactivate: [DeactivateGuard],
         children: [
-          { path: '', component: AdminComponent },
           { path: 'movie/add', component: MovieComponent }
         ]
       }
