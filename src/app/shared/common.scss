@@ -1,0 +1,42 @@
+@mixin border{
+    border: thin solid #807f7f;
+}
+
+@mixin commonStyles{
+    font-size: 16px; 
+    padding: 15px;
+    color: #FFF;       
+}
+
+@mixin btn{
+    button{
+        background: #48a3c6;        
+        border: none;
+        margin: 10px;     
+        min-width: 75px;
+        cursor: pointer;
+        @include commonStyles();        
+    }
+}
+
+@mixin inputs{
+    input, textarea{
+        display: flex;
+        flex-direction: row;        
+        background: transparent;        
+        min-width:300px;
+        margin: 10px auto;     
+        @include commonStyles();
+        @include border();
+    }
+}
+
+@mixin formStyles{
+    max-width: 380px;
+    padding: 15px;
+    margin: 10px auto;        
+    @include border();
+    h2{
+        text-align: center;
+    }
+}
