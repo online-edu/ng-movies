@@ -19,7 +19,8 @@ export class LoginComponent {
     login() {
         if (this.user.id !== "" && this.user.password !== "") {
             localStorage.setItem("loggedIn", "true");
-            let url = btoa(this.route.snapshot.queryParams['returnUrl']) || '/admin';            
+            let url = this.route.snapshot.queryParams['returnUrl'];
+            url = url != undefined ? btoa(url) : '/admin'            
             this.router.navigate([url])
         }
     }

@@ -32,6 +32,8 @@
 }
 
 @mixin formStyles{
+    display: flex;
+    flex-direction: column;
     max-width: 380px;
     padding: 15px;
     margin: 10px auto;        
