@@ -1,0 +1,11 @@
+@import '../shared/common';
+
+.movie-form {
+    @include formStyles();    
+    @include inputs();
+    .footer{
+        text-align: center;
+        @include btn();
+    }
+    
+}

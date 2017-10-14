@@ -8,7 +8,7 @@
                         <tr>
                             <td><img class="movie-img" [src]="movie.image" /></td>
                             <td [ngStyle]="{'padding-left':'15px'}">
-                                <a [routerLink]="['/details', movie.id]" class="movie-name">{{movie.name}}</a>
+                                <a [routerLink]="['movies/details', movie.id]" class="movie-name">{{movie.name}}</a>
                                 <p class="movie-desc">{{movie.summary}}</p>
                             </td>
                         </tr>
@@ -24,7 +24,7 @@
                         <tr>
                             <td><img class="movie-img" [src]="movie.image" /></td>
                             <td [ngStyle]="{'padding-left':'15px'}">
-                                <a [routerLink]="['/details', movie.id]" class="movie-name">{{movie.name}}</a>
+                                <a [routerLink]="['movies/details', movie.id]" class="movie-name">{{movie.name}}</a>
                                 <p class="movie-desc">{{movie.summary}}</p>
                             </td>
                         </tr>

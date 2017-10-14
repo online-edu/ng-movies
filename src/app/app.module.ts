@@ -5,25 +5,24 @@ import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from './app.component';
-import { MoviesComponent } from './movies/movies.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { MovieDetailsComponent } from './movies/movie-details/movie-details.component';
 import { MovieService } from "./movies/movie.service";
+import { MovieModule } from "./movies/movie.module";
+import { AuthGuard } from "./guards/auth-guard.service";
 
 @NgModule({
   declarations: [
     AppComponent,
-    MoviesComponent,
     DashboardComponent,
-    MovieDetailsComponent
   ],
   imports: [
     AppRoutingModule,
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    MovieModule
   ],
-  providers: [MovieService],
+  providers: [MovieService, AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

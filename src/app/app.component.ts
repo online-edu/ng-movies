@@ -1,17 +1,25 @@
 import { Component } from '@angular/core';
 
+import { Router } from '@angular/router';
+
 @Component({
   selector: 'movie-root',
   template: `<header>   
               <ul>
                   <li><a class="brand" routerLink="/">Movies</a></li>
-                  <li><a routerLink="/dashboard">Dashboard</a></li>
-                  <li><a routerLink="/movies">Movies</a></li>
-              </ul>
+                  <li><a routerLink="/">Home</a></li>
+                  <li routerLinkActive="active"><a routerLink="/movies">Movies</a></li>
+                  <li routerLinkActive="active"><a routerLink="/login" >Login</a></li>                                                                  
+              </ul>              
              </header>
              <div class="container">
               <router-outlet></router-outlet>
              </div>`,
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent { }
+export class AppComponent {
+  constructor(router: Router) {
+    console.log('Routes: ', JSON.stringify(router.config, undefined, 2));
+  }
+}
+// <li routerLinkActive="active"><a routerLink="/admin/movie/add" >Add</a></li>      

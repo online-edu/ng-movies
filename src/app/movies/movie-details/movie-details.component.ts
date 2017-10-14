@@ -5,7 +5,7 @@ import { MovieService } from "../movie.service";
 import { Movie } from "../movie";
 
 @Component({
-  selector: 'movie-movie-details',
+  selector: 'movie-details',
   templateUrl: './movie-details.component.html',
   styleUrls: ['./movie-details.component.scss']
 })
@@ -16,7 +16,7 @@ export class MovieDetailsComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private movieService: MovieService
-  ) { }
+  ) {  }
 
   getMovie(id: number) {
     if (id !== undefined) {
