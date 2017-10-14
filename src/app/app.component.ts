@@ -9,8 +9,7 @@ import { Router } from '@angular/router';
                   <li><a class="brand" routerLink="/">Movies</a></li>
                   <li><a routerLink="/">Home</a></li>
                   <li routerLinkActive="active"><a routerLink="/movies">Movies</a></li>
-                  <li routerLinkActive="active"><a routerLink="/login" >Login</a></li>                                    
-                  <li routerLinkActive="active"><a routerLink="/admin/movie/add" >Add</a></li>                  
+                  <li routerLinkActive="active"><a routerLink="/login" >Login</a></li>                                                                  
               </ul>              
              </header>
              <div class="container">
@@ -23,3 +22,4 @@ export class AppComponent {
     console.log('Routes: ', JSON.stringify(router.config, undefined, 2));
   }
 }
+// <li routerLinkActive="active"><a routerLink="/admin/movie/add" >Add</a></li>      

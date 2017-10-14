@@ -1,5 +1,8 @@
-<div [ngStyle]="{'text-align':'center'}">
+<div class="admin-header">
     <h2>Admin Dashboard</h2>
-    <button type="button" (click)="logout()">Logout</button>      
+    <div class="links">
+        <a routerLink="/admin/movie/add">Add Movie  </a>|
+        <a href="javascript:void(0)" (click)="logout()">  Logout</a>
+    </div>
 </div>
 <router-outlet></router-outlet>
