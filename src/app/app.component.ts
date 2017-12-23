@@ -14,7 +14,10 @@ import { Router } from '@angular/router';
              </header>
              <div class="container">
               <router-outlet></router-outlet>
-             </div>`,
+             </div>
+             <footer>
+                <img src="./favicon.ico" />
+             </footer>`,
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
@@ -22,4 +25,3 @@ export class AppComponent {
     console.log('Routes: ', JSON.stringify(router.config, undefined, 2));
   }
 }
-// <li routerLinkActive="active"><a routerLink="/admin/movie/add" >Add</a></li>      
