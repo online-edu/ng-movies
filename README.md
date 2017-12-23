@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/online-edu/movie-app.svg?branch=master)](https://travis-ci.org/online-edu/movie-app)
+[![Build Status](https://travis-ci.org/online-edu/ng-movies.svg?branch=master)](https://travis-ci.org/online-edu/movie-app)
 
 # Movie App
 
