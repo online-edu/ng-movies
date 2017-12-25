@@ -53,3 +53,10 @@ footer {
 .active {
   background-color: #999999;
 }
+@media screen and (max-width: 400px) {
+  footer {
+    img {
+      left: 15px;
+    }
+  }
+}
