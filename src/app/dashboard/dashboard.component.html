@@ -6,7 +6,9 @@
                 <div class="list-item" *ngFor="let movie of topMovies">
                     <table>
                         <tr>
-                            <td><img class="movie-img" [src]="movie.image" /></td>
+                            <td>
+                                <img class="movie-img" [alt]="movie.name" [src]="movie.image" />
+                            </td>
                             <td [ngStyle]="{'padding-left':'15px'}">
                                 <a [routerLink]="['movies/details', movie.id]" class="movie-name">{{movie.name}}</a>
                                 <p class="movie-desc">{{movie.summary}}</p>
@@ -22,7 +24,9 @@
                 <div class="list-item" *ngFor="let movie of latestMovies">
                     <table>
                         <tr>
-                            <td><img class="movie-img" [src]="movie.image" /></td>
+                            <td>
+                                <img class="movie-img" [alt]="movie.name" [src]="movie.image" />
+                            </td>
                             <td [ngStyle]="{'padding-left':'15px'}">
                                 <a [routerLink]="['movies/details', movie.id]" class="movie-name">{{movie.name}}</a>
                                 <p class="movie-desc">{{movie.summary}}</p>
