@@ -17,5 +17,18 @@
         "files": ["/assets/**"]
       }
     }
+  ],
+  "dataGroups": [
+    {
+      "name": "api-perf",
+      "urls": [
+        "https://movie-app-29a50.firebaseapp.com/assets/images/",
+        "https://buttons.github.io/",
+        "https://buttons.github.io/assets/css/"
+      ],
+      "cacheConfig": {
+        "strategy": "performance"
+      }
+    }
   ]
 }
