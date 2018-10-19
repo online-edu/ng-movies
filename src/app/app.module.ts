@@ -12,7 +12,9 @@ import { MovieService } from "./movies/movie.service";
 import { MovieModule } from "./movies/movie.module";
 import { AuthGuard } from "./guards/auth-guard.service";
 import { environment } from "environments/environment";
-
+/**
+ * App Module
+ */
 @NgModule({
   declarations: [AppComponent, DashboardComponent],
   imports: [
