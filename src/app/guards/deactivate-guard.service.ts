@@ -1,12 +1,12 @@
 import { Injectable, Injector, ComponentFactoryResolver } from "@angular/core";
 import { CanDeactivate } from "@angular/router";
 
-import { MovieComponent } from "../admin/movie/movie.component";
+import { MovieAddComponent } from "../admin/movie-add/movie-add.component";
 /**
  * `DeactivateGuard` is available as an injectable class to notify user before navigating.
  */
 @Injectable()
-export class DeactivateGuard implements CanDeactivate<MovieComponent> {
+export class DeactivateGuard implements CanDeactivate<MovieAddComponent> {
   /**
    * @constructor
    * @param {Injector} injector to inject
@@ -21,10 +21,10 @@ export class DeactivateGuard implements CanDeactivate<MovieComponent> {
    * @param {MovieComponent} component
    * @return {boolean}
    */
-  canDeactivate(component: MovieComponent) {
+  canDeactivate(component: MovieAddComponent) {
     if (!component) {
       return this.componentFactoryResolver
-        .resolveComponentFactory(MovieComponent)
+        .resolveComponentFactory(MovieAddComponent)
         .create(this.injector)
         .instance.canDeactivate();
     }
