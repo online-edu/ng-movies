@@ -7,7 +7,9 @@ import { MovieDetailsComponent } from "./movie-details/movie-details.component";
 import { MovieListComponent } from './movie-list/movie-list.component';
 import { MovieService } from "./movie.service";
 import { MovieResolver } from "./movie-resolver.service";
-
+/**
+ * Movie Module
+ */
 @NgModule({
     imports: [
         CommonModule,
