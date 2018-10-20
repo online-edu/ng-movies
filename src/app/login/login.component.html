@@ -1,13 +1,14 @@
-<div>
+<!-- Login -->
+<section>
     <form class="movie-form">
         <h2>Login</h2>
-        <input [(ngModel)]="user.id" type="text" class="form-control" name="username" placeholder="Email" required="" autofocus=""
-        />
-        <input [(ngModel)]="user.password" type="password" class="form-control" name="password" placeholder="Password" required=""
-        />
+        <input [(ngModel)]="user.id" type="text" class="form-control" name="username" placeholder="Email" required=""
+            autofocus="" />
+        <input [(ngModel)]="user.password" type="password" class="form-control" name="password" placeholder="Password"
+            required="" />
         <div class="footer">
             <button type="button" (click)="login()">Login</button>
             <button type="button" routerLink="/">Home</button>
         </div>
     </form>
-</div>
+</section>
