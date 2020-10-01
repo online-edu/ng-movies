@@ -2,7 +2,7 @@
 
 # Movie App (PWA)
 
-This project is movie library where list of movies are displayed. It is simply showcase of angular features such as modules, components, services, routing, data-binding, etc.
+This project is movie library where list of movies are displayed. It is simply showcase of angular features such as modules, components, services, routing, data-binding, etc. I Hope You Enjoy It.
 
 ### [Demo](https://movie-app-29a50.firebaseapp.com)
 
